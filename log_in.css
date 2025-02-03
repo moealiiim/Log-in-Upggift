@@ -1,0 +1,105 @@
+/* Generella stilar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Lyktblått bakgrundsfärg */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container för inloggningsformuläret */
+.login-container {
+    background-color: white;
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Rubrik och text */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Formulärstilar */
+.login-form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Checkbox-stilar */
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+/* Knappgrupp */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Allmän knappstil */
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Logga-in-knapp */
+.login-btn {
+    background-color: #007BFF; /* Blått */
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Mörkare blått vid hover */
+}
+
+/* Registrera-dig-knapp */
+.register-btn {
+    background-color: #28a745; /* Grönt */
+}
+
+.register-btn:hover {
+    background-color: #1e7e34; /* Mörkare grönt vid hover */
+}
