@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inloggningssida</title>
+    <!-- Länka till extern CSS-fil -->
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Välkommen</h1>
+        <p>Logga in på din konto nedan:</p>
+
+        <!-- Inloggningsformulär -->
+        <form action="#" method="POST" class="login-form">
+            <!-- E-postadress -->
+            <label for="email">E-postadress:</label>
+            <input type="email" id="email" name="email" placeholder="din.email@example.com" required>
+
+            <!-- Lösenord -->
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" name="password" placeholder="******" required>
+
+            <!-- Kom ihåg mig checkbox -->
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Kom ihåg mig</label>
+            </div>
+
+            <!-- Knappar -->
+            <div class="button-group">
+                <button type="submit" class="btn login-btn">Logga in</button>
+                <button type="button" class="btn register-btn">Registrera dig</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
